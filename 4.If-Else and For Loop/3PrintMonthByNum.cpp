@@ -2,9 +2,7 @@
 using namespace std;
 void printMonth(int n)
 {
-    if(n<1 || n>12)
-        cout<<"Invalid Number";
-    else if(n==1)
+    if(n==1)
         cout<<"January";
     else if(n==2)
         cout<<"February";
@@ -28,6 +26,8 @@ void printMonth(int n)
         cout<<"November";
     else if(n==12)
         cout<<"December";
+    else
+        cout<<"Invalid Number";
 }
 int main()
 {

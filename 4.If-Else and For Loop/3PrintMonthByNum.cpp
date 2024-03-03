@@ -35,4 +35,5 @@ int main()
     cout<<"Enter number between 1 to 12 ";
     cin>>n;
     printMonth(n);
+    return 0;
 }

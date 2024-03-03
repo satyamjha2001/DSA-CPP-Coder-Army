@@ -16,4 +16,5 @@ int main()
     sum=(n*(n+1)*(2*n+1)/6)
      cout<<"Sum of squares until n is "<<sum;
     */
+   return 0;
 }

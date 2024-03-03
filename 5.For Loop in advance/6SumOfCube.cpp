@@ -15,4 +15,5 @@ int main()
 
     sum = (n * n * (n + 1) * (n + 1)) / 4;
     cout << "Sum of cubes until n is " << sum;
+    return 0;
 }

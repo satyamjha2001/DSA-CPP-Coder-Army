@@ -65,4 +65,5 @@ int main()
     obj.inputArray();
     obj.reverseBubbleSort();
     obj.printArray();
+    return 0;
 }

@@ -64,4 +64,5 @@ int main()
     obj.inputArray();
     obj.decreasingBubbleSort();
     obj.printArray();
+    return 0;
 }

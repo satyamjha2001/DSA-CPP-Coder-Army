@@ -27,6 +27,7 @@ int main()
         cout << "First Position of element is " << ans[0]+1<<endl;
         cout << "Last Position of element is " << ans[1]+1;
     }
+    return 0;
 }
 
 int* firstLastPosition(int arr[], int size, int item)

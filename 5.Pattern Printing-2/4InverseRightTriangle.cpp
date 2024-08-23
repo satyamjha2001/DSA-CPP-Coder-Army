@@ -1,14 +1,25 @@
+/*
+
+    A B C D
+    A B C
+    A B
+    A
+
+*/
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    for(int row=1;row<=5;row++)
+    for(int row=1;row<=4;row++)
     {
-        for(int col=1;col<=5;col++)
+        char ch='A';
+        for(int col=1;col<=4;col++)
         {
-            if(col<=row)
+            if(col<=4-row+1)
             {
-                cout<<(char)('A'+col-1)<<" ";
+                cout<<ch<<" ";
+                ch++;
             }
             else
             {

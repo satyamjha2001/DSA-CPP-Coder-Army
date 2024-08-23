@@ -1,5 +1,13 @@
+/*
+    4 4 4 4 4 4
+    4 4 4 4 4 4
+    4 4 4 4 4 4
+    4 4 4 4 4 4
+    4 4 4 4 4 4
+ */
+
 #include<iostream>
-using namespace std;
+    using namespace std;
 int main()
 {
     for(int row=1;row<=5;row++)

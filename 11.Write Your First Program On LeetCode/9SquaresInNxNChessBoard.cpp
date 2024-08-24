@@ -1,4 +1,5 @@
-
+#include <iostream>
+using namespace std;
 class Solution
 {
 public:
@@ -18,3 +19,15 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+    Solution obj;
+
+    cout << "Squares In " << n << "x" << n << " chess board is " << obj.squaresInChessBoard(n);
+
+    return 0;
+}

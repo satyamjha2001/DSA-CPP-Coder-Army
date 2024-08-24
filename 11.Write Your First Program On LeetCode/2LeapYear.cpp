@@ -1,3 +1,7 @@
+
+#include <iostream>
+using namespace std;
+
 class Solution
 {
 public:
@@ -9,3 +13,21 @@ public:
             return 0;
     }
 };
+
+int main()
+{
+    int year;
+    cout << "Enter your year: ";
+    cin >> year;
+
+    Solution obj;
+    if (obj.isLeap(year))
+    {
+        cout << year << " is Leap Year";
+    }
+    else
+    {
+        cout << year << " is not Leap Year";
+    }
+    return 0;
+}

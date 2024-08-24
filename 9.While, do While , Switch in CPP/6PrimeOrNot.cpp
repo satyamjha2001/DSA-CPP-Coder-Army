@@ -35,7 +35,7 @@ bool isPrime(int n)
     if(n%2==0 || n%3==0)
         return 0;
     int i = 5;
-    while(i*i<=n)
+    while(i<=n/i)
     {
         if(n%i==0 || n%(i+2)==0)
         {

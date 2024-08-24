@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class Solution
 {
 public:
@@ -14,3 +17,23 @@ public:
         return true;
     }
 };
+
+int main()
+{
+    int n;
+    cout << "Enter your number: ";
+    cin >> n;
+
+    Solution obj;
+
+    if (obj.isPowerOfTwo(n))
+    {
+        cout << n << " is power of 2";
+    }
+    else
+    {
+        cout << n << " is not power of 2";
+    }
+
+    return 0;
+}

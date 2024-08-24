@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution
 {
 public:
@@ -19,3 +21,20 @@ public:
         return 1;
     }
 };
+
+int main()
+{
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+    Solution obj;
+    if (obj.isUgly(n))
+    {
+        cout << n << " is ugly number.";
+    }
+    else
+    {
+        cout << n << " is not a ugly number.";
+    }
+    return 0;
+}

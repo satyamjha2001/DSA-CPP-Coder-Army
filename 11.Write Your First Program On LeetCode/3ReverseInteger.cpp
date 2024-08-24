@@ -1,5 +1,5 @@
-#include<iostream>
-#include<climits>
+#include <iostream>
+#include <climits>
 using namespace std;
 
 class Solution
@@ -21,6 +21,13 @@ public:
 
 int main()
 {
-    
+    int n;
+    cout << "Enter your integer number: ";
+    cin >> n;
+
+    Solution obj;
+
+    cout << "Reverse of interger is " << obj.reverse(n);
+
     return 0;
 }

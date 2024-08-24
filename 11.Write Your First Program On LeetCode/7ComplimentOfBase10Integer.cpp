@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 class Solution
 {
 public:
@@ -17,3 +20,20 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+    Solution obj;
+    if (n < 0)
+    {
+        cout << "Give positive number";
+    }
+    else
+    {
+        cout << "Bitwise complement of base 10 integer is " << obj.bitwiseComplement(n);
+    }
+    return 0;
+}

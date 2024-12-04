@@ -9,7 +9,7 @@ int main()
     {
         sum+=i*i*i;
     }
-    cout<<"Sum of squares until n is "<<sum;
+    cout<<"Sum of cubes until n is "<<sum;
     */
     // OR
 

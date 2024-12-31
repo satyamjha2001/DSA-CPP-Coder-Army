@@ -27,7 +27,7 @@ int searchInsertPosition(int arr[], int size, int item)
         mid = start + (end - start) / 2;
         if(arr[mid]==item)
         {
-            return mid+1;
+            return mid;     //have to return index of element if found
         }
         else if(arr[mid]<item)
         {

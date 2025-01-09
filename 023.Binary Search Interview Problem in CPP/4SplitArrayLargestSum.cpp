@@ -53,6 +53,6 @@ int main()
     }
     cout << "Enter the number of partitions: ";
     cin >> k;
-    cout <<"Largest sum: "<<splitArray(a, n, k) << endl;
+    cout << "minimized largest sum of the split: " << splitArray(a, n, k) << endl;
     return 0;
 }
